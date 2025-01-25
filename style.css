@@ -1,8 +1,6 @@
 body {
-background-color: rgb(66, 29, 29);
-color: rgb(205, 132, 147);
+background-color: rgb(5, 117, 51);
 }
-
 
 
 #footerClocks {
@@ -12,25 +10,35 @@ color: rgb(205, 132, 147);
   text-align: center; 
   font-family: Teko, serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: Poetsen One, serif;
 }
 
 #easternTime {
-  border: solid .25rem red;
-  margin-right: .25rem;
+  border: solid .25rem rgb(0, 166, 255);
+  margin-right: .35rem;
   border-radius: .5rem;
   width: 20rem;
+  color: blue;
+  background-color: yellow;
 }
 
 #centralTime {
-  border: solid .25rem red;
-  margin-right: .25rem;
+  border: solid .25rem rgb(0, 166, 255);
+  margin-right: .35rem;
   border-radius: .5rem;
   width: 20rem;
+  color: yellow;
+  background-color: blue;
 }
 
 #pacificTime {
-  border: solid .25rem red;
+  border: solid .25rem rgb(0, 166, 255);
   border-radius: .5rem;
   width: 20rem;
+  color: blue;
+  background-color: yellow;
 }
