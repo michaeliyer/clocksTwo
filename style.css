@@ -1,6 +1,6 @@
 body {
-background-color: black;
-color: azure;
+background-color: rgb(66, 29, 29);
+color: rgb(205, 132, 147);
 }
 
 
@@ -12,4 +12,21 @@ color: azure;
   font-family: Teko, serif;
   font-weight: 500;
   font-size: 2rem;
+}
+
+#easternTime {
+  border: solid .25rem red;
+  margin-bottom: .25rem;
+  border-radius: .5rem;
+}
+
+#centralTime {
+  border: solid .25rem red;
+  margin-bottom: .25rem;
+  border-radius: .5rem;
+}
+
+#pacificTime {
+  border: solid .25rem red;
+  border-radius: .5rem;
 }
