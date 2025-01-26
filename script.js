@@ -120,14 +120,14 @@ function updateCountdownToDate(zoneId, timeZone, targetDate, label) {
 
 // Function to update countdowns for all time zones
 function updateCountdownsForAllZones() {
-  const targetDate = "2028-11-07T00:00:00"; // Replace with your target date
+  const targetDate = "2026-11-03T00:00:00"; // Replace with your target date
 
-  updateCountdownToDate("easternTime", "America/New_York", targetDate, "Election 2028");
-  updateCountdownToDate("centralTime", "America/Chicago", targetDate, "Election 2028");
-  updateCountdownToDate("mountainTime", "America/Denver", targetDate, "Election 2028");
-  updateCountdownToDate("pacificTime", "America/Los_Angeles", targetDate, "Election 2028");
-  updateCountdownToDate("alaskaTime", "America/Anchorage", targetDate, "Election 2028");
-  updateCountdownToDate("hawaiiTime", "Pacific/Honolulu", targetDate, "Election 2028");
+  updateCountdownToDate("easternTime", "America/New_York", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("centralTime", "America/Chicago", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("mountainTime", "America/Denver", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("pacificTime", "America/Los_Angeles", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("alaskaTime", "America/Anchorage", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("hawaiiTime", "Pacific/Honolulu", targetDate, "Mid-Term Elections 2026");
 }
 
 // Run the countdown function every second

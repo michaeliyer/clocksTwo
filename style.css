@@ -17,6 +17,10 @@ h3 {
   font-family: Poetsen One, serif;
 }
 
+.countdownToDate {
+  font-family: Russo One, serif;
+}
+
 #easternTime {
   border: solid .25rem rgb(0, 166, 255);
   margin-right: .35rem;
