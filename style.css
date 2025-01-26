@@ -1,5 +1,5 @@
 body {
-background-color: rgb(5, 117, 51);
+background-color: rgb(0, 0, 0);
 }
 
 
@@ -21,57 +21,81 @@ h3 {
   font-family: Russo One, serif;
 }
 
-#easternTime {
+#easternTime,
+#centralTime,
+#mountainTime,
+#pacificTime,
+#alaskaTime,
+#hawaiiTime,
+#londonTime,
+#parisTime,
+#tokyoTime,
+#sydneyTime,
+#cairoTime,
+#mumbaiTime {
   border: solid .25rem rgb(0, 166, 255);
   margin-right: .35rem;
   border-radius: .5rem;
   width: 20rem;
-  color: blue;
-  background-color: yellow;
+  color: yellow;
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  width: 100%; /* Adjust based on your layout */
+}
+
+#easternTime {
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKSMmTKcDKszk7sYStE1zusc8uaixbDLMBoR8uuUZ6mJXew3o7vRoZoluDn4_p_oKVu4&usqp=CAU');
 }
 
 #centralTime {
-  border: solid .25rem rgb(0, 166, 255);
-  margin-right: .35rem;
-  border-radius: .5rem;
-  width: 20rem;
-  color: yellow;
-  background-color: blue;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjA5sV0q-aT5brQSsrM_UcP9s9MjT0pFo5SQ3GcYaH95MrhIFtkIK0YKJKvE432BISTU&usqp=CAU');
 }
 
 #mountainTime {
-  border: solid .25rem rgb(0, 166, 255);
-  margin-right: .35rem;
-  border-radius: .5rem;
-  width: 20rem;
-  color: blue;
-  background-color: yellow;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhmZIksDPcvUtjMhC90H-ZkkZYvUj55Zfl8dxI8N-kGNSGG7WfYRdPYYa41bMuKRSnbY&usqp=CAU');
 }
 
 #pacificTime {
-  border: solid .25rem rgb(0, 166, 255);
-  border-radius: .5rem;
-  width: 20rem;
-  color: yellow;
-  background-color: blue;
+
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/26/12/85/1000_F_526128537_g0k6pAVbtzjl3CwpEwj1fGkPoELdWoGg.jpg');
 }
+
 #alaskaTime {
-  border: solid .25rem rgb(0, 166, 255);
-  margin-right: .35rem;
-  border-radius: .5rem;
-  width: 20rem;
-  color: blue;
-  background-color: yellow;
+
+  background-image: url('https://www.goglutenfreely.com/wp-content/uploads/2023/08/Alaska-Cruise-IMG_3762.jpg');
 }
 
 #hawaiiTime {
-  border: solid .25rem rgb(0, 166, 255);
-  border-radius: .5rem;
-  width: 20rem;
-  color: yellow;
-  background-color: blue;
+  background-image: url('https://www.andrewshoemaker.com/images/640/secret-solitude-secret-beach-water.jpg');
 }
 
+#londonTime {
+  background-image: url('https://i.pinimg.com/736x/12/61/5a/12615a61eec1732f2b27d6a3672a5799.jpg');
+}
+
+#parisTime {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6KhOqlr6cXEyOZgygar_oilYO-VciN2MF4TmtWzqdKjdChk-uR20nv8jduFU454cME8&usqp=CAU');
+}
+
+#tokyoTime {
+  background-image: url('https://cdn.artphotolimited.com/images/596f55e820e52a52cf66246a/300x300/kinkaku-ji-the-golden-palace-kyoto.jpg');
+}
+
+#sydneyTime {
+  background-image: url('https://i.pinimg.com/736x/18/81/54/18815455ec3c00257d47c002ec52848b.jpg');
+}
+
+#cairoTime {
+  background-image: url('https://www.shutterstock.com/image-photo/beautiful-baobab-trees-sunset-avenue-600nw-2142231947.jpg');
+}
+
+#mumbaiTime {
+  background-image: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/01/22122601/Mumbai-photos.jpg');
+}
 
 
 

@@ -50,6 +50,12 @@ function updateAllClocks() {
   updateClock("pacificTime", "America/Los_Angeles", "Pacific Time");
   updateClock("alaskaTime", "America/Anchorage", "Alaska Time");
   updateClock("hawaiiTime", "Pacific/Honolulu", "Hawaii Time");
+  updateClock("londonTime", "Europe/London", "London Time");
+  updateClock("parisTime", "Europe/Paris", "Paris Time");
+  updateClock("tokyoTime", "Asia/Tokyo", "Tokyo Time");
+  updateClock("sydneyTime", "Australia/Sydney", "Sydney Time");
+  updateClock("cairoTime", "Africa/Cairo", "Cairo Time");
+  updateClock("mumbaiTime", "Asia/Kolkata", "Mumbai Time");
 }
 
 // Start the clock updates
@@ -80,6 +86,12 @@ function updateDatesForAllZones() {
   displayCurrentDate("pacificTime", "America/Los_Angeles");
   displayCurrentDate("alaskaTime", "America/Anchorage");
   displayCurrentDate("hawaiiTime", "Pacific/Honolulu");
+  displayCurrentDate("londonTime", "Europe/London");
+  displayCurrentDate("parisTime", "Europe/Paris");
+  displayCurrentDate("tokyoTime", "Asia/Tokyo");
+  displayCurrentDate("sydneyTime", "Australia/Sydney");
+  displayCurrentDate("cairoTime", "Africa/Cairo");
+  displayCurrentDate("mumbaiTime", "Asia/Kolkata");
 }
 
 // Run the function once and refresh the date every 1 minute
@@ -128,6 +140,12 @@ function updateCountdownsForAllZones() {
   updateCountdownToDate("pacificTime", "America/Los_Angeles", targetDate, "Mid-Term Elections 2026");
   updateCountdownToDate("alaskaTime", "America/Anchorage", targetDate, "Mid-Term Elections 2026");
   updateCountdownToDate("hawaiiTime", "Pacific/Honolulu", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("londonTime", "Europe/London", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("parisTime", "Europe/Paris", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("tokyoTime", "Asia/Tokyo", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("sydneyTime", "Australia/Sydney", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("cairoTime", "Africa/Cairo", targetDate, "Mid-Term Elections 2026");
+  updateCountdownToDate("mumbaiTime", "Asia/Kolkata", targetDate, "Mid-Term Elections 2026");
 }
 
 // Run the countdown function every second
