@@ -10,7 +10,7 @@ background-color: rgb(5, 117, 51);
   text-align: center; 
   font-family: Teko, serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 h3 {
@@ -35,13 +35,39 @@ h3 {
   background-color: blue;
 }
 
-#pacificTime {
+#mountainTime {
   border: solid .25rem rgb(0, 166, 255);
+  margin-right: .35rem;
   border-radius: .5rem;
   width: 20rem;
   color: blue;
   background-color: yellow;
 }
+
+#pacificTime {
+  border: solid .25rem rgb(0, 166, 255);
+  border-radius: .5rem;
+  width: 20rem;
+  color: yellow;
+  background-color: blue;
+}
+#alaskaTime {
+  border: solid .25rem rgb(0, 166, 255);
+  margin-right: .35rem;
+  border-radius: .5rem;
+  width: 20rem;
+  color: blue;
+  background-color: yellow;
+}
+
+#hawaiiTime {
+  border: solid .25rem rgb(0, 166, 255);
+  border-radius: .5rem;
+  width: 20rem;
+  color: yellow;
+  background-color: blue;
+}
+
 
 
 
@@ -87,3 +113,4 @@ h3 {
     margin: 0 auto; /* Center align the items */
   }
 }
+w
