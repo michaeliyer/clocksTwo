@@ -45,27 +45,22 @@ h3 {
 }
 
 #easternTime {
-
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKSMmTKcDKszk7sYStE1zusc8uaixbDLMBoR8uuUZ6mJXew3o7vRoZoluDn4_p_oKVu4&usqp=CAU');
 }
 
 #centralTime {
-
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjA5sV0q-aT5brQSsrM_UcP9s9MjT0pFo5SQ3GcYaH95MrhIFtkIK0YKJKvE432BISTU&usqp=CAU');
 }
 
 #mountainTime {
-
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhmZIksDPcvUtjMhC90H-ZkkZYvUj55Zfl8dxI8N-kGNSGG7WfYRdPYYa41bMuKRSnbY&usqp=CAU');
 }
 
 #pacificTime {
-
   background-image: url('https://as2.ftcdn.net/v2/jpg/05/26/12/85/1000_F_526128537_g0k6pAVbtzjl3CwpEwj1fGkPoELdWoGg.jpg');
 }
 
 #alaskaTime {
-
   background-image: url('https://www.goglutenfreely.com/wp-content/uploads/2023/08/Alaska-Cruise-IMG_3762.jpg');
 }
 
@@ -85,9 +80,15 @@ h3 {
   background-image: url('https://cdn.artphotolimited.com/images/596f55e820e52a52cf66246a/300x300/kinkaku-ji-the-golden-palace-kyoto.jpg');
 }
 
+
+
 #sydneyTime {
   background-image: url('https://i.pinimg.com/736x/18/81/54/18815455ec3c00257d47c002ec52848b.jpg');
 }
+#sydneyTime {
+  cursor: pointer;
+}
+
 
 #cairoTime {
   background-image: url('https://www.shutterstock.com/image-photo/beautiful-baobab-trees-sunset-avenue-600nw-2142231947.jpg');

@@ -151,3 +151,14 @@ function updateCountdownsForAllZones() {
 // Run the countdown function every second
 updateCountdownsForAllZones();
 setInterval(updateCountdownsForAllZones, 1000);
+
+
+
+// Index Pages
+
+const sydneyLink = document.getElementById("sydneyTime");
+sydneyLink.addEventListener("click", openSydneyLink);
+
+function openSydneyLink() { 
+  window.location = "sydney.html";
+}
